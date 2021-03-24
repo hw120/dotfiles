@@ -41,8 +41,8 @@
     sslverify = false
 
 [user]
-    name = Hunter Wu
-    email = hunter.wu@ileopard.com
+    name = hunter
+    email = 120@18mail.net
 
 [push]
     default = tracking
