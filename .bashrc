@@ -130,3 +130,4 @@ done
 gvm use go1.15.6
 export GOPATH=/home/$USER/workspaces/go
 export LANGUAGE="en_US.UTF-8"
+export PATH=/home/$USER/workspaces/go/bin:$PATH
