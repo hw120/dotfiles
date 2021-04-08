@@ -28,4 +28,10 @@ fi
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
 [[ -s "${HOME}/.gvm/scripts/gvm" ]] && source "${HOME}/.gvm/scripts/gvm"
 gvm use go1.15.6
-export GOPATH=/home/wmh/workspaces/go
+export GOPATH=/home/$USER/workspaces/go
+export LANGUAGE="en_US.UTF-8"
+export PATH=/home/$USER/workspaces/go/bin:$PATH
+
+# Added by serverless binary installer
+export PATH="$HOME/.serverless/bin:$PATH"
+
